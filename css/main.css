@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:after, *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear:before, .clear:after {
+  content: ' ';
+  display: table;
+}
+
+.clear:after {
+  clear: both;
+}
+
+.clear {
+  *zoom: 1;
+}
+
+#header {
+  font-family: "Shrikhand", sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  -webkit-box-shadow: 0 2px 0 #d5d5d5;
+          box-shadow: 0 2px 0 #d5d5d5;
+}
+
+#header img {
+  width: 40%;
+}
+
+.header-info {
+  text-align: center;
+  margin-top: 2px;
+  background-color: #eaeaea;
+  padding: 0.75em 0;
+}
+
+.fa-map-marker-alt {
+  margin-right: 1.625em;
+}
+
+body {
+  background: #fff;
+}
+
+.info {
+  padding-bottom: 40px;
+  background-color: #f6f6f6;
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info-titre {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.info-prefaxe {
+  text-align: center;
+  padding: 14px 0;
+}
+
+.info-btn {
+  border: none;
+  width: 50%;
+  margin: 0 auto;
+  padding: 14px;
+  border-radius: 20px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-box-shadow: 4px 4px 4px #d2d2d2;
+          box-shadow: 4px 4px 4px #d2d2d2;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
