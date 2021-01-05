@@ -32,8 +32,64 @@ body{
     font-weight: bold;
   }
 }
-.choice-title{
+.choice{
+  margin-left: 16px;
+
+  &-title{
     margin-top: 30px;
     font-weight: bold;
     font-size: 1.24em;
+  }
+
+  &-btn1{
+    text-align: center;
+    position: relative;
+  }
+
+  &-btn3 li{
+    padding: 18px 40px;
+    background-color: #fff;
+    margin: 30px 12px;
+    border-radius: 14px;
+    box-shadow: 3px 3px 3px grey;
+  }
+
+  &-btn4 li{
+    padding: 18px 40px;
+    background-color: #fff;
+    margin: 30px 12px;
+    border-radius: 14px;
+    box-shadow: 3px 3px 3px grey;
+  }
+
+  &-btn5 li{
+    padding: 18px 40px;
+    background-color: #fff;
+    margin: 30px 12px;
+    border-radius: 14px;
+    box-shadow: 3px 3px 3px grey;
+  }
+
+  &-btn2{
+    position: absolute;
+    left: -1px;
+    border-radius: 50%;
+    background-color: $cd-primary;
+    padding: 5px;
+    height: 16px;
+    width: 4.4%;
+    color: #fff;
+  }
+}
+
+.fa-mobile-alt{
+  margin-right: $cd-margin;
+}
+.fa-list-ul{
+  color: grey;
+  margin-right: 20px;
+}
+.fa-store{
+  margin-right: $cd-margin;
+  color: $cd-primary;
 }

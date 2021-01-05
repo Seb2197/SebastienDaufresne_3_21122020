@@ -131,9 +131,70 @@ body {
   font-weight: bold;
 }
 
+.choice {
+  margin-left: 16px;
+}
+
 .choice-title {
   margin-top: 30px;
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.24em;
+}
+
+.choice-btn1 {
+  text-align: center;
+  position: relative;
+}
+
+.choice-btn3 li {
+  padding: 18px 40px;
+  background-color: #fff;
+  margin: 30px 12px;
+  border-radius: 14px;
+  -webkit-box-shadow: 3px 3px 3px grey;
+          box-shadow: 3px 3px 3px grey;
+}
+
+.choice-btn4 li {
+  padding: 18px 40px;
+  background-color: #fff;
+  margin: 30px 12px;
+  border-radius: 14px;
+  -webkit-box-shadow: 3px 3px 3px grey;
+          box-shadow: 3px 3px 3px grey;
+}
+
+.choice-btn5 li {
+  padding: 18px 40px;
+  background-color: #fff;
+  margin: 30px 12px;
+  border-radius: 14px;
+  -webkit-box-shadow: 3px 3px 3px grey;
+          box-shadow: 3px 3px 3px grey;
+}
+
+.choice-btn2 {
+  position: absolute;
+  left: -1px;
+  border-radius: 50%;
+  background-color: #9356DC;
+  padding: 5px;
+  height: 16px;
+  width: 4.4%;
+  color: #fff;
+}
+
+.fa-mobile-alt {
+  margin-right: 20px;
+}
+
+.fa-list-ul {
+  color: grey;
+  margin-right: 20px;
+}
+
+.fa-store {
+  margin-right: 20px;
+  color: #9356DC;
 }
 /*# sourceMappingURL=main.css.map */
