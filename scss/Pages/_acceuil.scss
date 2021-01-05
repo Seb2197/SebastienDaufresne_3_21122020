@@ -16,6 +16,7 @@ body{
     font-size: 1.25em;
     text-align: center;
   }
+
   &-prefaxe{
     text-align: center;
     padding: 14px 0;
@@ -29,15 +30,15 @@ body{
     color: #fff;
     background: linear-gradient($cd-secondaire, $cd-primary);
     box-shadow: 4px 4px 4px #d2d2d2;
-    font-weight: bold;
+    font-family: $cd-police;
   }
 }
 .choice{
   margin-left: 16px;
+  font-family: $cd-police;
 
   &-title{
     margin-top: 30px;
-    font-weight: bold;
     font-size: 1.24em;
   }
 
@@ -47,27 +48,27 @@ body{
   }
 
   &-btn3 li{
-    padding: 18px 40px;
+    padding: 24px 40px;
     background-color: #fff;
     margin: 30px 12px;
     border-radius: 14px;
-    box-shadow: 3px 3px 3px grey;
+    box-shadow: 3px 3px 10px #c0c0c0;
   }
 
   &-btn4 li{
-    padding: 18px 40px;
+    padding: 24px 40px;
     background-color: #fff;
     margin: 30px 12px;
     border-radius: 14px;
-    box-shadow: 3px 3px 3px grey;
+    box-shadow: 3px 3px 10px #c0c0c0;
   }
 
   &-btn5 li{
-    padding: 18px 40px;
+    padding: 24px 40px;
     background-color: #fff;
     margin: 30px 12px;
     border-radius: 14px;
-    box-shadow: 3px 3px 3px grey;
+    box-shadow: 3px 3px 10px #c0c0c0;
   }
 
   &-btn2{
@@ -92,4 +93,42 @@ body{
 .fa-store{
   margin-right: $cd-margin;
   color: $cd-primary;
+}
+.restaurant{
+  background-color: #f2f2f2;
+  margin-bottom: 80px;
+
+  &-choice{
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 20px 20px 10px 10px;
+    position: relative;
+  }
+
+  &-choice img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+
+  &-info{
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    color: #008766;
+    background-color: #99e2d0;
+    padding: 7px 15px;
+    font-weight: bold;
+    border-radius: 5%;
+  }
+
+  &-title{
+    padding: 10px 0 5px 10px;
+    font-weight: bold;
+  }
+
+  &-title1{
+    padding: 0 0 10px 10px;
+  }
 }

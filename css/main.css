@@ -65,6 +65,73 @@ table {
   *zoom: 1;
 }
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:after, *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear:before, .clear:after {
+  content: ' ';
+  display: table;
+}
+
+.clear:after {
+  clear: both;
+}
+
+.clear {
+  *zoom: 1;
+}
+
 #header {
   font-family: "Shrikhand", sans-serif;
   text-align: center;
@@ -82,6 +149,7 @@ table {
   margin-top: 2px;
   background-color: #eaeaea;
   padding: 0.75em 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .fa-map-marker-alt {
@@ -128,16 +196,16 @@ body {
   background: linear-gradient(#FF79DA, #9356DC);
   -webkit-box-shadow: 4px 4px 4px #d2d2d2;
           box-shadow: 4px 4px 4px #d2d2d2;
-  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 .choice {
   margin-left: 16px;
+  font-family: "Roboto", sans-serif;
 }
 
 .choice-title {
   margin-top: 30px;
-  font-weight: bold;
   font-size: 1.24em;
 }
 
@@ -147,30 +215,30 @@ body {
 }
 
 .choice-btn3 li {
-  padding: 18px 40px;
+  padding: 24px 40px;
   background-color: #fff;
   margin: 30px 12px;
   border-radius: 14px;
-  -webkit-box-shadow: 3px 3px 3px grey;
-          box-shadow: 3px 3px 3px grey;
+  -webkit-box-shadow: 3px 3px 10px #c0c0c0;
+          box-shadow: 3px 3px 10px #c0c0c0;
 }
 
 .choice-btn4 li {
-  padding: 18px 40px;
+  padding: 24px 40px;
   background-color: #fff;
   margin: 30px 12px;
   border-radius: 14px;
-  -webkit-box-shadow: 3px 3px 3px grey;
-          box-shadow: 3px 3px 3px grey;
+  -webkit-box-shadow: 3px 3px 10px #c0c0c0;
+          box-shadow: 3px 3px 10px #c0c0c0;
 }
 
 .choice-btn5 li {
-  padding: 18px 40px;
+  padding: 24px 40px;
   background-color: #fff;
   margin: 30px 12px;
   border-radius: 14px;
-  -webkit-box-shadow: 3px 3px 3px grey;
-          box-shadow: 3px 3px 3px grey;
+  -webkit-box-shadow: 3px 3px 10px #c0c0c0;
+          box-shadow: 3px 3px 10px #c0c0c0;
 }
 
 .choice-btn2 {
@@ -196,5 +264,45 @@ body {
 .fa-store {
   margin-right: 20px;
   color: #9356DC;
+}
+
+.restaurant {
+  background-color: #f2f2f2;
+  margin-bottom: 80px;
+}
+
+.restaurant-choice {
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 20px 20px 10px 10px;
+  position: relative;
+}
+
+.restaurant-choice img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.restaurant-info {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  color: #008766;
+  background-color: #99e2d0;
+  padding: 7px 15px;
+  font-weight: bold;
+  border-radius: 5%;
+}
+
+.restaurant-title {
+  padding: 10px 0 5px 10px;
+  font-weight: bold;
+}
+
+.restaurant-title1 {
+  padding: 0 0 10px 10px;
 }
 /*# sourceMappingURL=main.css.map */
