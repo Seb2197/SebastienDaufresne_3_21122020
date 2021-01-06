@@ -1,0 +1,22 @@
+.bas{
+    background-color: #353535;
+    color: #fff;
+
+    &-info{
+        margin-left: 16px;
+        padding: 25px 0 40px 0;
+    }
+
+    &-3{
+        font-family: $cd-txt;
+        margin-bottom: 20px;
+    }
+
+    &-1tilte{
+        padding: 5px 0;
+        font-family: $cd-police;
+    }
+}
+.fa-utensils, .fa-hands-helping{
+    margin-right: 10px;
+}
