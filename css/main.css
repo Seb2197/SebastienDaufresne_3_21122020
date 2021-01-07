@@ -138,6 +138,7 @@ table {
   padding: 20px 0;
   -webkit-box-shadow: 0 2px 0 #d5d5d5;
           box-shadow: 0 2px 0 #d5d5d5;
+  position: relative;
 }
 
 #header img {
@@ -154,6 +155,12 @@ table {
 
 .fa-map-marker-alt {
   margin-right: 1.625em;
+}
+
+.fa-arrow-left {
+  position: absolute;
+  left: 20px;
+  top: 24px;
 }
 
 .bas {
@@ -182,6 +189,11 @@ table {
 
 body {
   background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .info {
@@ -365,5 +377,98 @@ body {
   background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.francaise img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.francaise {
+  position: relative;
+}
+
+.selection {
+  padding-bottom: 30px;
+}
+
+.selection-btn {
+  border: none;
+  width: 50%;
+  margin: 0 0 80px 84px;
+  padding: 14px;
+  border-radius: 20px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-box-shadow: 4px 4px 4px #d2d2d2;
+          box-shadow: 4px 4px 4px #d2d2d2;
+  font-family: "Roboto", sans-serif;
+}
+
+.selectionnat {
+  background-color: #f6f6f6;
+  margin-top: 66px;
+}
+
+.francaises {
+  font-family: "Shrikhand", sans-serif;
+  background-color: #f6f6f6;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  top: 175px;
+  width: 100%;
+}
+
+.francaises-menutitle {
+  padding: 40px 30px 30px 16px;
+  position: relative;
+  font-size: 24px;
+}
+
+.francaises-pre {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin: 0 12px;
+  padding-top: 20px;
+}
+
+.francaises-barre {
+  width: 11%;
+  height: 3px;
+  background-color: #99e2d0;
+  margin: 4px 12px;
+}
+
+.heart-menu {
+  position: absolute;
+  right: 40px;
+}
+
+.menu {
+  background-color: #fff;
+  margin: 15px 12px;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 10px #c0c0c0;
+          box-shadow: 3px 3px 10px #c0c0c0;
+}
+
+.menu-detail {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 15px 0 0 12px;
+}
+
+.menu-details {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  padding: 5px 0 15px 12px;
+}
+
+.menu-details span {
+  position: absolute;
+  right: 20px;
 }
 /*# sourceMappingURL=main.css.map */

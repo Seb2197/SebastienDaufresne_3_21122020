@@ -3,6 +3,7 @@
     text-align: center;
     padding: 20px 0;
     box-shadow: 0 2px 0 #d5d5d5;
+    position: relative;
 }
 #header img{
     width: 40%;
@@ -16,4 +17,9 @@
 }
 .fa-map-marker-alt{
     margin-right: 1.625em;
+}
+.fa-arrow-left{
+    position: absolute;
+    left: 20px;
+    top: 24px;
 }
