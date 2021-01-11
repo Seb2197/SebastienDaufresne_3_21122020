@@ -1,3 +1,4 @@
 {
-    "liveSassCompile.settings.showOutputWindow": false
+    "liveSassCompile.settings.showOutputWindow": false,
+    "liveServer.settings.port": 5501
 }

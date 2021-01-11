@@ -1,4 +1,4 @@
-// section francaise menu
+// section title du menu À la française
 .francaise img{
     width: 100%;
     height: 200px;
@@ -7,25 +7,19 @@
 .francaise{
     position: relative;
 }
-.selection{
-    padding-bottom: 30px;
 
-    &-btn{
-    border: none;
-    width: 50%;
-    margin: 0 0 80px 84px;
-    padding: 14px;
-    border-radius: 20px;
-    color: #fff;
-    background: linear-gradient($cd-secondaire, $cd-primary);
-    box-shadow: 4px 4px 4px #d2d2d2;
-    font-family: $cd-police;
-    }
-}
+// section globale des entrées, plat et dessert
 .selectionnat{
     background-color: #f6f6f6;
     margin-top: 66px;
 }
+
+.selection{
+    padding-bottom: 30px;
+    animation: slideUp 1000ms  ease-in-out both;
+    font-family: $cd-police;
+}
+
 .francaises{
     font-family: $cd-txt;
     background-color: #f6f6f6;
@@ -54,33 +48,74 @@
         margin: 4px 12px;
     }
 }
-.heart-menu{
-    position: absolute;
-    right: 40px;
-}
-// fin de la section française
-// début des informations des menus
+// section des menus choix
 .menu{
-    background-color: #fff;
-    margin: 15px 12px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px #c0c0c0;
-
-    &-detail{
-        font-family: $cd-police;
-        font-weight: bold;
-        padding: 15px 0 0 12px;
-        
-    }
-
-    &-details{
-        font-family: $cd-police;
+    background: white;
+    border-radius: 1rem;
+    position: relative;
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    box-shadow:2px 4px 8px 3px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    cursor : pointer;
+    &-container{
+        flex: 1;
         position: relative;
-        padding: 5px 0 15px 12px;
+        padding: .8rem;
+        line-height: 1.5rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
-
-    &-details span{
-        position: absolute;
-        right: 20px;
+    &-detail{
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    &-details{
+        font-size: .9rem;
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        & .price{
+            font-size: .9rem;
+            font-weight: 700;
+            position: absolute;
+            right: 1rem;
+            bottom: .8rem;
+        }
+    }
+    &-icon{
+        background-color: $cd-tertiaire;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 0%;
+        transition: 1s;
+        & .fa-check-circle{
+            opacity: 0;
+            color: white;;
+            font-size: 1.2rem;
+            transform: rotate(180deg);
+            transition: .8s;
+        }
+    }
+      &-btn{
+    border: none;
+    width: 50%;
+    margin: 60px auto 40px ;
+    padding: 14px;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient($cd-secondaire, $cd-primary);
+    box-shadow: 4px 4px 4px #d2d2d2;
+    text-align: center;
+    cursor: pointer;
+    }
+    &-btn a{
+        color: #fff;
+    }
+    &-btn:hover{
+        opacity: .8;
     }
 }

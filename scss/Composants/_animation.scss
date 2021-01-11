@@ -1,0 +1,158 @@
+// début du loader
+.loader{
+  background: linear-gradient($cd-secondaire, $cd-primary);
+ width: 100%;
+ height: 100vh;
+ position: fixed;
+ animation: load-wrapper 3s both;
+}
+.lds-ripple {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+
+// animation du loader
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+@keyframes load-wrapper{
+      0% {
+        opacity:1;
+        z-index: 2;
+    }
+    70% {
+        opacity: 1;
+    }
+    99%{
+      z-index: 2;
+    }
+    100% {
+        opacity: 0;
+        z-index: -10;
+    }
+}
+
+// aniamtion des plats
+  @keyframes slideUp{
+    0%{ 
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+// animation du check au près des plats
+.menu:hover{
+    transform: translate(0px); 
+}
+  
+.menu:hover{
+    transform: rotate(-360deg); 
+}
+
+.menu:hover .menu-icon{
+    width: 15%;
+}
+
+.menu:hover .fa-check-circle {
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+// animation du coeur 
+.fa-heart{
+  position: absolute;
+  right: 16px;
+  font-size: 26px;
+  -webkit-text-stroke: 1px white;
+}
+.heart:hover{
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heart-color{
+  opacity: 0;
+  transition:.3s ease;
+}
+.heart-color:hover{
+  opacity: 1;
+  background: linear-gradient($cd-secondaire, $cd-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+// animation des entrées
+.anim-entrer{
+    animation: slideUp 1000ms .2s ease-in-out both;
+}
+.anim-entrer2{
+        animation: slideUp 1000ms .4s ease-in-out both;
+    }
+
+.anim-entrer3{
+        animation: slideUp 1000ms .6s ease-in-out both;
+    }
+
+.anim-entrer4{
+    animation: slideUp 1000ms .6s ease-in-out both;
+}
+
+// animation des plats
+.anim-plat{
+    animation: slideUp 1000ms .8s ease-in-out both;
+}
+.anim-plat2{
+    animation: slideUp 1000ms 1s ease-in-out both;
+}  
+.anim-plat3{
+    animation: slideUp 1000ms 1.2s ease-in-out both;
+}
+.anim-meal4{
+    animation: slideUp 1000ms 1.4s ease-in-out both;
+}
+
+// animations des desserts
+.anim-dessert{
+    animation: slideUp 1000ms 1.6s ease-in-out both;
+}
+.anim-dessert2{
+    animation: slideUp 1000ms 1.8s ease-in-out both;
+} 
+.anim-dessert3{
+    animation: slideUp 1000ms 2s ease-in-out both;
+}
+.anim-dessert3{
+    animation: slideUp 1000ms 2.2s ease-in-out both;
+}

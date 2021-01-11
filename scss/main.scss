@@ -1,7 +1,16 @@
+// Reset du css
 @import "./base/reset";
+
+// Variable utilisé pour le projet
 @import "./utils/variable";
-@import "./base/reset";
+
+// import des animations
+@import "./Composants/animation";
+// Répétition du header, footer
+@import "./Layout/responsive";
 @import "./Layout/header";
 @import "./Layout/footer";
+
+// Pages du site
 @import "./Pages/acceuil";
 @import "./Pages/menu";
