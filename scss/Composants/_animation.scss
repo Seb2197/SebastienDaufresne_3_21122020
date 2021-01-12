@@ -5,6 +5,7 @@
  height: 100vh;
  position: fixed;
  animation: load-wrapper 3s both;
+ max-width: 1200px;
 }
 .lds-ripple {
   position: absolute;
@@ -131,6 +132,7 @@
 
 // animation des plats
 .anim-plat{
+
     animation: slideUp 1000ms .8s ease-in-out both;
 }
 .anim-plat2{

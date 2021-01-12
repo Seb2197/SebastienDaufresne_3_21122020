@@ -18,6 +18,7 @@
     padding-bottom: 30px;
     animation: slideUp 1000ms  ease-in-out both;
     font-family: $cd-police;
+    margin: 0 12px;
 }
 
 .francaises{
@@ -35,9 +36,7 @@
     }
 
     &-pre{
-        font-family: $cd-police;
         text-transform: uppercase;
-        margin: 0 12px;
         padding-top: 20px;
     }
 
@@ -45,7 +44,6 @@
         width: 11%;
         height: 3px;
         background-color: #99e2d0;
-        margin: 4px 12px;
     }
 }
 // section des menus choix

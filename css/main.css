@@ -73,6 +73,7 @@ table {
   position: fixed;
   -webkit-animation: load-wrapper 3s both;
           animation: load-wrapper 3s both;
+  max-width: 1200px;
 }
 
 .lds-ripple {
@@ -300,6 +301,13 @@ table {
 .anim-dessert3 {
   -webkit-animation: slideUp 1000ms 2.2s ease-in-out both;
           animation: slideUp 1000ms 2.2s ease-in-out both;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    max-width: 1200px;
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -545,6 +553,7 @@ a {
   -webkit-animation: slideUp 1000ms  ease-in-out both;
           animation: slideUp 1000ms  ease-in-out both;
   font-family: "Roboto", sans-serif;
+  margin: 0 12px;
 }
 
 .francaises {
@@ -563,9 +572,7 @@ a {
 }
 
 .francaises-pre {
-  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
-  margin: 0 12px;
   padding-top: 20px;
 }
 
@@ -573,7 +580,6 @@ a {
   width: 11%;
   height: 3px;
   background-color: #99e2d0;
-  margin: 4px 12px;
 }
 
 .menu {

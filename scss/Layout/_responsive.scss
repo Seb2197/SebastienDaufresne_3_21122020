@@ -1,4 +1,10 @@
-
+// début des média queries format deckstop
+@media screen and (min-width: 1440px){
+    body{
+        max-width: 1200px;
+        margin: auto;
+    }
+}
 // début des média queries format tablette
 @media screen and (min-width: 768px){
     .bas-info{
