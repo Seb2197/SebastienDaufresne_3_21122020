@@ -11,12 +11,11 @@
         font-family: $cd-txt;
         margin-bottom: 20px;
     }
-
-    &-1tilte{
-        padding: 5px 0;
-        font-family: $cd-police;
-    }
 }
 .fa-utensils, .fa-hands-helping{
     margin-right: 10px;
+}
+.bas-1title{
+    font-family: $cd-police;
+    color: white;
 }

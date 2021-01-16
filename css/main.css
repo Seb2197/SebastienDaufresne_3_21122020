@@ -366,13 +366,13 @@ table {
   margin-bottom: 20px;
 }
 
-.bas-1tilte {
-  padding: 5px 0;
-  font-family: "Roboto", sans-serif;
-}
-
 .fa-utensils, .fa-hands-helping {
   margin-right: 10px;
+}
+
+.bas-1title {
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 body {
